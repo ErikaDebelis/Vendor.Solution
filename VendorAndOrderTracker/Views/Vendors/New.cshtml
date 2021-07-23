@@ -6,9 +6,28 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="~/css/styles.css" rel="stylesheet" type="text/css">
   </head>
-
   <body>
     <div class="container">
+      <h1>Add a new vendor</h1>
+
+        <form action="/vendors" method="post">
+        <div class="form-row">
+          <div class="col-lg">
+            <label for="vendorName">Vendor Name:</label>
+            <input id="vendorName" name="vendorName" type="text">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-lg">
+            <label for="vendorDescription">Vendor Description:</label>
+            <input id="vendorDescription" name="vendorDescription" type="text">
+            </div>
+        </div>
+        <button type="submit" class="btn btn-info">Add!</button>
+        </form>
+
+        <p><a href="/">Back home</a></p>
+        <p><a href="/categories">Back to vendors.</a></p>
     </div>
   </body>
 </html>
