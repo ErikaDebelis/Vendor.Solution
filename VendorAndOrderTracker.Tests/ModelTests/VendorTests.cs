@@ -1,27 +1,27 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using (namespace Name.Models);
+using VendorAndOrderTracker.Models;
 using System.Collections.Generic;
 using System;
 
-namespace Name.Tests
+namespace VendorAndOrderTracker.Tests
 {
   [TestClass]
-  public class : IDisposable
+  public class VendorTests: IDisposable
   {
     public void Dispose()
     {
-      FILLIN.ClearAll();
+      Vendor.ClearAll();
     }
 
     [TestMethod]
-    public void 
+    public void VendorConstructor_CreatesInstancesOfVendor_Vendor()
     {
-      //Arrange
+      string vendorName = "Starbucks";
+      string vendorDescription = "Cafe";
 
-      //Act
+      Vendor newVendor = new Vendor(vendorName, vendorDescription);
 
-      //Assert
-      
+      Assert.AreEqual(typeof(Vendor), newVendor.GetType());
     }
   }
 }

@@ -1,6 +1,6 @@
-namespace Name.Models
+namespace VendorAndOrderTracker.Models
 {
-  public class 
+  public class Order
   {
 
   }

@@ -1,9 +1,9 @@
-using Microsoft.AspNetCore.Mvc;
+// using Microsoft.AspNetCore.Mvc;
 
-namespace Name.Controllers
-{
-    public class
-    {
+// namespace VendorandOrderTracker.Controllers
+// {
+//     public class
+//     {
       
-    }
-}
+//     }
+// }
