@@ -1,6 +1,6 @@
-# (Application Name)
+# Vendor and Order Tracker
 
-(Brief Description of Application)
+An MVC application to track the vendors that purchase goods from and the order details belonging to those vendors.
 
 #### Authored by Erika Debelis
 
@@ -13,13 +13,13 @@
 
 ## Setup/Installation Requirements
 
-1. Download or clone the https://github.com/ErikaDebelis/(PROJECT NAME) to your local machine
-2. Open git BASH terminal and navigate to the (CODE FOLDER NAME) of the directory
+1. Download or clone the https://github.com/ErikaDebelis/Vendor.Soultion to your local machine
+2. Open git BASH terminal and navigate to the VendorAndOrderTracker folder of the directory
 3. Run "dotnet run" in the git BASH terminal to install dependencies, minify the code, and run the project in the terminal.
     ``$ dotnet run``
 4. View the website by visiting localhost:5000/ in a new web browser( such as google chrome) tab!
 #### _To run tests_ ####
-1. To run/review tests navigate to the Bakery.Tests folder
+1. To run/review tests navigate to the VendorAndOrderTracker.Tests folder
 2. Run "dotnet test" in the terminal to create and launch the application!
     ``$dotnet test``
 
