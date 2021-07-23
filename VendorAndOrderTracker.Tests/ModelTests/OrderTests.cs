@@ -32,5 +32,18 @@ namespace VendorAndOrderTracker.Tests
       Assert.AreEqual(orderPrice, resultPrice);
       Assert.AreEqual(orderDate, resultDate);
     }
+    [TestMethod]
+    public void GetId_ReturnOrderId_Int()
+    {
+      string orderTitle = "Starbucks needs some pastries!";
+      string orderDescription = "3 pastries";
+      int orderPrice = 5;
+      string orderDate = "07/24/2021";
+      Order newOrder = new Order(orderTitle, orderDescription, orderPrice, orderDate);
+
+      int orderIdResult = newOrder.Id;
+
+      Assert.AreEqual(1, orderIdResult);
+    }
   }
 }
