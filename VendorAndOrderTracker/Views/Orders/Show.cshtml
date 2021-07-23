@@ -6,9 +6,22 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="~/css/styles.css" rel="stylesheet" type="text/css">
   </head>
-
   <body>
     <div class="container">
+      @using VendorTracker.Models;
+
+      <h3>Here are all the orders for this vendor:</h3>
+
+      <ol>
+        @foreach (Order newOrder in @Model["orderList"])
+        {
+          <li><a href='/vendors/@Model["vendor"].Id/orderList/@order.Id'>@order.Title</a></li>
+        }
+      </ol>
+
+      <p><a href='/vendors/@Model["vendor"].Id/orderList/new'>Add a new order to your List!</a></p>
+      <p><a href='/vendors'>Return to vendor list</a></p>
+      <p><a href='/'>Return to Main Page</a></p>
     </div>
   </body>
 </html>

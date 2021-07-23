@@ -13,7 +13,7 @@
       <h3>Orders for this vendor:</h3>
 
       <ol>
-        @foreach (Order newOrder in @Model["orderList])
+        @foreach (Order newOrder in @Model["orderList"])
         {
           <li><a href='/vendors/@Model["vendor"].Id/newOrder/@order.Id'>@order.Title</a></li>
         }
