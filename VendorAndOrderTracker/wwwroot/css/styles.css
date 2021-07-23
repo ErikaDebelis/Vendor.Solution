@@ -1,0 +1,24 @@
+a {
+  color: magenta;
+  size: 13 rem;
+  margin: 13px 0;
+}
+.container {
+  background-color: rgba(53, 215, 255, 0.712);
+  padding: 30px 10px;
+  border-radius: 30px;
+  margin-top: 15px;
+}
+body {
+  opacity: 0.25;
+}
+.btn-info {
+  width: 80px;
+  margin: auto;
+  display: block;
+  margin-top: 15px;
+}
+h2, h2 {
+  text-align: center;
+  margin: 25px 0;
+}

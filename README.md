@@ -9,7 +9,7 @@ An MVC application to track the vendors that purchase goods from and the order d
 * _C#_
 * _MySQL_
 * _Git BASH_
-* _ASP .NET CORE MVC_
+* _ASP .NET5.0 CORE MVC_
 
 ## Setup/Installation Requirements
 
