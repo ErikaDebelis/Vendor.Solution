@@ -18,10 +18,17 @@ namespace VendorAndOrderTracker.Tests
     {
       string vendorName = "Starbucks";
       string vendorDescription = "Cafe";
-
       Vendor newVendor = new Vendor(vendorName, vendorDescription);
 
-      Assert.AreEqual(typeof(Vendor), newVendor.GetType());
+      string result = newVendor.Name;
+
+      Assert.AreEqual(vendorName, result);
     }
+    // [TestMethod]
+    // public void ()
+    // {
+
+    //   Assert.AreEqual();
+    // }
   }
 }
