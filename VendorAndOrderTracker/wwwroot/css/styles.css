@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
 a {
   color: magenta;
   size: 13 rem;
@@ -19,6 +20,20 @@ body {
   margin-top: 15px;
 }
 h2, h2 {
+  font-family: 'Zen Tokyo Zoo', cursive;
   text-align: center;
   margin: 25px 0;
+  color: darkviolet;
+}
+html {
+  background-image: url(https://t3.ftcdn.net/jpg/03/07/22/02/360_F_307220247_Oy1sghv8j5CPHmXBsncFN17UD7JViLcw.jpg);
+  background-repeat: no-repeat;
+  background-position: relative;
+  background-size: cover;
+  overflow: auto;
+  background-position-x: 0;
+  background-position-y: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
