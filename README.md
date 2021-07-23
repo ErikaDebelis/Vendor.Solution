@@ -13,7 +13,7 @@ An MVC application to track the vendors that purchase goods from and the order d
 
 ## Setup/Installation Requirements
 
-1. Download or clone the https://github.com/ErikaDebelis/Vendor.Soultion to your local machine
+1. Download or clone the https://github.com/ErikaDebelis/Vendor.Solution to your local machine
 2. Open git BASH terminal and navigate to the VendorAndOrderTracker folder of the directory
 3. Run "dotnet run" in the git BASH terminal to install dependencies, minify the code, and run the project in the terminal.
     ``$ dotnet run``
