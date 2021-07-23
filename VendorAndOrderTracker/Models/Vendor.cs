@@ -19,14 +19,22 @@ namespace VendorAndOrderTracker.Models
       _instances.Add(this);
       Id = _instances.Count;
     }
+
     public static List<Vendor> GetAll()
     {
       return _instances;
     }
+
+    public void AddOrder(Order newOrder)
+    {
+      Orders.Add(newOrder);
+    }
+
     public static void ClearAll()
     {
       _instances.Clear();
     }
+
     public static Vendor Find(int searchId)
     {
       return _instances[searchId - 1];
