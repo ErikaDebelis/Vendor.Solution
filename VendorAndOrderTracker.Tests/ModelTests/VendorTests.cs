@@ -20,15 +20,20 @@ namespace VendorAndOrderTracker.Tests
       string vendorDescription = "Cafe";
       Vendor newVendor = new Vendor(vendorName, vendorDescription);
 
-      string result = newVendor.Name;
+      string resultName = newVendor.Name;
+      string resultDescription = newVendor.Description;
 
-      Assert.AreEqual(vendorName, result);
+      Assert.AreEqual(vendorName, resultName);
+      Assert.AreEqual(vendorDescription, resultDescription);
     }
-    // [TestMethod]
-    // public void ()
-    // {
-
-    //   Assert.AreEqual();
-    // }
+    [TestMethod]
+    public void GetId_ReturnVendorId_Int()
+    {
+      string vendorName = "Starbucks";
+      string vendorDescription = "Cafe";
+      Vendor newVendor = new Vendor(vendorName, vendorDescription);
+      int idResult = newVendor.Id;
+      Assert.AreEqual(1, idResult);
+    }
   }
 }
