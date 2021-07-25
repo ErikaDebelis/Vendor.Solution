@@ -10,7 +10,7 @@ namespace VendorAndOrderTracker.Models
     public string Description { get; set; }
     public int Id { get; }
 
-    public List<Order> Orders { get; set; }
+    public List<Order> OrderList { get; set; }
 
     public Vendor(string vendorName, string vendorDescription)
     {
@@ -27,7 +27,7 @@ namespace VendorAndOrderTracker.Models
 
     public void AddOrder(Order newOrder)
     {
-      Orders.Add(newOrder);
+      OrderList.Add(newOrder);
     }
 
     public static void ClearAll()
