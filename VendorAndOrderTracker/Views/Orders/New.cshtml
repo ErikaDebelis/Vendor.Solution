@@ -12,7 +12,7 @@
       <h1>Add a new order to @Model.Name</h1>
         <div class="form-row">
           <div class="col-5">
-            <form action="/vendors/Model.Id/orders" method="post">
+            <form action="/vendors/Model.Id/orderList" method="post">
               <input id="vendorId" name="vendorId" type="hidden" value="@Model.Id">
               <label for="orderTitle">Order Title</label>
               <input id="orderTitle" name="orderTitle" type="text">
@@ -36,7 +36,7 @@
         <div class="form-row">
           <div class="col-5">
               <label for="orderDate">Order Date</label>
-              <input id="orderDate" name="orderDate" type="date">
+              <input id="orderDate" name="orderDate" type="text">
           </div>
         </div>
             <button type="submit" class="btn btn-info btn-sm">Add your Order!</button>

@@ -1,6 +1,6 @@
 a {
   color: magenta;
-  size: 13 rem;
+  size: 30 rem;
   margin: 13px 0;
 }
 .container {
@@ -10,7 +10,14 @@ a {
   margin-top: 15px;
 }
 body {
-  opacity: 0.25;
+  opacity: 0.79;
+  font-family: 'Zen Tokyo Zoo', cursive;
+  background-color: transparent;
+  font-weight: bold;
+  text-shadow: rgb(111, 3, 212);
+  text-align: center;
+  color: black;
+
 }
 .btn-info {
   width: 80px;
@@ -19,11 +26,21 @@ body {
   margin-top: 15px;
   color: blueviolet;
 }
-h2, h2 {
+h1 {
   font-family: 'Zen Tokyo Zoo', cursive;
-  text-shadow: deepskyblue;
+  color: rgb(0, 81, 255);
   text-align: center;
   font-style: italic;
+  font-weight: bold;
+  margin: 25px 0;
+  text-shadow: darkviolet;
+}
+h2, h3 {
+  font-family: 'Zen Tokyo Zoo', cursive;
+  text-shadow: rgb(0, 81, 255);
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
   margin: 25px 0;
   color: darkviolet;
 }
@@ -38,4 +55,10 @@ html {
   height: 100%;
   margin: 0;
   padding: 0;
+}
+p {
+  font-family: 'Zen Tokyo Zoo', cursive;
+  text-shadow: rgb(0, 81, 255);
+  color: magenta;
+
 }

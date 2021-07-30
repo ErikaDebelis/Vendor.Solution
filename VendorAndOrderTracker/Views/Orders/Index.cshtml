@@ -19,7 +19,7 @@
       <ul>
       @foreach (Order newOrder in @Model["orderList"])
       {
-        <li><a href='/vendors/@Model["vendor"].Id/orderList/@order.Id'>@order.Description</a></li>
+        <li><a href='/vendors/@Model["vendor"].Id/orderList/@newOrder.Id'>@newOrder.Description</a></li>
       }
       </ul>
 
