@@ -1,7 +1,7 @@
 # Vendor and Order Tracker
 
 An MVC application to track the vendors that purchase goods from and the order details belonging to those vendors.
-
+![Screenshot](vendore_logo.jpg)
 #### Authored by Erika Debelis
 
 ## Technologies Used
