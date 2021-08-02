@@ -14,16 +14,16 @@
       <h1>Orders List</h1>
       @if (Model.Count == 0)
       {
-        <p>There are no orders in the list.</p>
+        <h3>There are no orders in the list.</h3>
       }
-      <ul>
+      <h4>
       @foreach (Order newOrder in @Model["orderList"])
       {
         <li><a href='/vendors/@Model["vendor"].Id/orderList/@newOrder.Id'>@newOrder.Description</a></li>
       }
-      </ul>
+      </h4>
 
-      <a href="/orderList/new">Add a new order.</a>
+      <h5><a href="/orderList/new">Add a new order.</a></h5>
     </div>
   </body>
 </html>
